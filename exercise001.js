@@ -13,8 +13,8 @@ const promise = new Promise((resolve, reject) => {
 
 promise
   .then(data => {
-    console.log(`Yay! Promise resolved with response: ${data}`);
+    console.log(`Yay! Promise resolved with response:${data}`);
   })
   .catch(error => {
-    console.log(`Boo. Promise rejected with response:  ${error}`);
+    console.log(`Boo. Promise rejected with response:${error}`);
   });
